@@ -36,3 +36,25 @@ body > div {
   background-color: #275db3;
   color: white;
 }
+
+.home {
+  background: rgb(244, 245, 50);
+  background: radial-gradient(
+    circle,
+    rgba(244, 245, 50, 1) 0%,
+    rgba(243, 90, 34, 1) 50%,
+    rgba(244, 245, 50, 1) 100%
+  );
+}
+
+#footer {
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
